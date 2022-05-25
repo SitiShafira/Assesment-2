@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    tools:context="org.d3if4040.todo.SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_do"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.3"
+        android:text="@string/memudahkan_kegiatan_mu"
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:textSize="16sp" />
+</LinearLayout>
